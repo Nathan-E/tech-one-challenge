@@ -27,7 +27,7 @@ Implantation:
 I use webclient builder from web reactive dependencies to consume the open Api asynchronously.
 <li>Function 1: getUsernames(int threshold) : I add page number to make it dynamic.
 URL: users/active-authors-submission-count/{page}/{threshold}
-Example: http://localhost:8080/users/active-authors-submission-count/1/23 <li>
+Example: http://localhost:8080/users/active-authors-submission-count/1/23 </li>
 <li>Function 2: getUsernamesWithHighestCommentCount.
 URL:  /users/highest-comment-count/{page}
  Example: http://localhost:8080/users/highest-comment-count/1 </li>
