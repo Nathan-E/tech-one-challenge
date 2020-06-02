@@ -1,10 +1,14 @@
 <h2>TECH-ONE-CHALLENGES REPORT</h2>
 <p>
 Challenge 1:
-A rest API to talk to another open api and fetch the following report:
-1.	The list of most active records according the set threshold.
-2.	The author with highest comment count.
-3.	The list of author sorted by when the record was created according to threshold.
+ A rest API to talk to another open api and fetch the following report:
+<ul>
+ <li>The list of most active records according the set threshold. </li>
+ <li>The author with highest comment count.</li>
+ <li>The list of author sorted by when the record was created according to threshold</li>
+</ul>
+
+
 </p>
 <p>
 The following are tool used in creating the application:
