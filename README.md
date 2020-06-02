@@ -12,26 +12,29 @@ Challenge 1:
 </p>
 <p>
 The following are tool used in creating the application:
-1.	OS: window 7
-2.	Framework: SpringBoot  2.3
-3.	Maven Project
-4.	Packaging: Jar
-5.	Dependencies: web and reactive webflux
-6.	Port: 8080 //default port
+ <ul>
+  <li>OS: window 7 </li>
+  <li> Framework: SpringBoot  2.3 </li>
+  <li> Maven Project </li>
+  <li>Packaging: Jar </li>
+  <li>Dependencies: web and reactive webflux </li>
+  <li>Port: 8080 //default port </li>
+  </ul>
 </p>
 <p>
 Implantation:
+ <ul>
 I use webclient builder from web reactive dependencies to consume the open Api asynchronously.
-Function 1: getUsernames(int threshold) : I add page number to make it dynamic.
+<li>Function 1: getUsernames(int threshold) : I add page number to make it dynamic.
 URL: users/active-authors-submission-count/{page}/{threshold}
-Example: http://localhost:8080/users/active-authors-submission-count/1/23
-Function 2: getUsernamesWithHighestCommentCount.
+Example: http://localhost:8080/users/active-authors-submission-count/1/23 <li>
+<li>Function 2: getUsernamesWithHighestCommentCount.
 URL:  /users/highest-comment-count/{page}
-Example: http://localhost:8080/users/highest-comment-count/1
-Function 3: getUsernameSortedByRecordDate(int threshold)
+ Example: http://localhost:8080/users/highest-comment-count/1 </li>
+<li>Function 3: getUsernameSortedByRecordDate(int threshold)
 URL: /users/username-sorted-by-recorddate/{page}/{threshold} 
-Example: http://localhost:8080/users/username-sorted-by-recorddate/1/5
-
+ Example: http://localhost:8080/users/username-sorted-by-recorddate/1/5 </li>
+</ul>
 </p>
 <p>
 Challenge 2:  A function that will return the maximum number of socks Anna can bring on her trips.
